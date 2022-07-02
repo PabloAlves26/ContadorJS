@@ -1,20 +1,51 @@
 body {
-    background: rgb(132, 95, 235);
+    background: rgb(183, 175, 113);
     font: normal 15pt Arial;
 }
 header {
     color: white;
     text-align: center;
 }
-h1 {
+.titulo {
     text-align: center;
+    background-image: linear-gradient(to bottom, rgb(15, 13, 13), rgb(38, 10, 243));
+    color: black;
+    /*Adicionando*/
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p {
+    font-weight: 700;
+}
+input#txti {
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.58);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+input#txtf {
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.58);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+input#txtp {
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.58);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
 }
 section {
     display: flex;
     justify-content:center;
     flex-direction: column;
     align-items: center;
-    background: white;
+    background: linear-gradient(to bottom, rgb(120, 181, 225), rgb(189, 232, 189));
     border-radius: 10px;
     padding: 1em;
     width: 14em;
@@ -36,4 +67,25 @@ footer {
 div {
     text-align: center;
     padding: 0.8em;
+}
+#btn {
+    position: relative;
+    top: -2rem;
+    border: 2 px solid rgba(0, 128, 0, 0.533);
+    border-radius: 15px;
+    padding: 6px;
+    width: 8em;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(96, 96, 207), rgb(94, 208, 94));
+    color: rgb(235, 246, 243);
+    font-size: 1.1rem;
+}
+#btn:hover {
+    background: linear-gradient(to right, rgb(92, 233, 92),  rgb(92, 92, 167));
+}
+div#res {
+    top: -2em;
+}
+footer {
+    color: black;
 }
